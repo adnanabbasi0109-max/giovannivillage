@@ -8,12 +8,12 @@ import { Button } from "@/components/ui/button";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 
 const galleryItems = [
-  { label: "Resort Grounds", span: "col-span-2 row-span-2" },
-  { label: "Luxury Suite", span: "col-span-1 row-span-1" },
-  { label: "Forest Dining", span: "col-span-1 row-span-1" },
-  { label: "Wedding Setup", span: "col-span-1 row-span-1" },
-  { label: "Pool & Gardens", span: "col-span-1 row-span-1" },
-  { label: "Spa Experience", span: "col-span-2 row-span-1" },
+  { label: "Resort Grounds", span: "col-span-2 row-span-2", src: "/images/gallery/resort-1.jpg" },
+  { label: "Luxury Suite", span: "col-span-1 row-span-1", src: "/images/rooms/suite-hero.jpg" },
+  { label: "Forest Dining", span: "col-span-1 row-span-1", src: "/images/dining/forest-grill-hero.jpg" },
+  { label: "Wedding Setup", span: "col-span-1 row-span-1", src: "/images/venues/grand-lawn-1.jpg" },
+  { label: "Pool & Gardens", span: "col-span-1 row-span-1", src: "/images/experiences/pool-hero.jpg" },
+  { label: "Spa Experience", span: "col-span-2 row-span-1", src: "/images/experiences/spa-hero.jpg" },
 ];
 
 export function GalleryPreview() {
@@ -40,6 +40,7 @@ export function GalleryPreview() {
                 alt={item.label}
                 label={item.label}
                 aspect="square"
+                src={item.src}
                 className="rounded-xl w-full h-full group-hover:scale-105 transition-transform duration-700"
               />
             </motion.div>

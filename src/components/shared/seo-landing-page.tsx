@@ -94,7 +94,7 @@ export function SEOLandingPage({
       {/* Visual */}
       <section className="py-12">
         <div className="container-luxury max-w-5xl">
-          <ImagePlaceholder alt={title} aspect="wide" label="Giovanni Village Resort" className="rounded-2xl" />
+          <ImagePlaceholder src="/images/gallery/resort-3.jpg" alt={title} aspect="wide" label="Giovanni Village Resort" className="rounded-2xl" />
         </div>
       </section>
 

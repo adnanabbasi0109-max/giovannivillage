@@ -35,6 +35,7 @@ export function DiningSection() {
                   alt={outlet.name}
                   aspect="video"
                   label={outlet.name}
+                  src={outlet.heroImage.src}
                   className="rounded-2xl"
                 />
               </div>

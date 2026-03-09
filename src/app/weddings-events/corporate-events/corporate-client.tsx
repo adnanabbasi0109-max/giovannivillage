@@ -214,6 +214,7 @@ export function CorporateClient() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                   <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                     <ImagePlaceholder
+                      src={venue.heroImage.src}
                       alt={venue.name}
                       aspect="video"
                       label={`${venue.name} — Corporate Setup`}

@@ -176,6 +176,7 @@ export function SocialClient() {
                 className="bg-white rounded-2xl overflow-hidden border border-earth-100 hover:shadow-lg transition-shadow"
               >
                 <ImagePlaceholder
+                  src={venue.heroImage.src}
                   alt={venue.name}
                   aspect="video"
                   label={venue.name}
@@ -223,6 +224,7 @@ export function SocialClient() {
               transition={{ duration: 0.6 }}
             >
               <ImagePlaceholder
+                src="/images/gallery/resort-4.jpg"
                 alt="Social celebration at Giovanni"
                 aspect="square"
                 label="Celebration Setup"

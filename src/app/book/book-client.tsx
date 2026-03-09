@@ -477,6 +477,7 @@ function StepRoomSelection({ search, onSelect, onBack }: Step2Props) {
                       {/* Image */}
                       <div className="md:w-64 lg:w-72 flex-shrink-0">
                         <ImagePlaceholder
+                          src={room.heroImage.src}
                           alt={room.name}
                           aspect="video"
                           className="md:h-full md:aspect-auto rounded-none md:rounded-l-xl md:rounded-tr-none"
@@ -956,6 +957,7 @@ function StepGuestDetails({ search, room, addOns, onConfirm, onBack }: Step3Prop
 
                 {/* Room Preview */}
                 <ImagePlaceholder
+                  src={room.heroImage.src}
                   alt={room.name}
                   aspect="video"
                   className="mb-4"

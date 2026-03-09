@@ -51,6 +51,7 @@ export function StayPageClient() {
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center`}>
                   <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                     <ImagePlaceholder
+                      src={room.heroImage.src}
                       alt={room.name}
                       aspect="video"
                       label={room.name}

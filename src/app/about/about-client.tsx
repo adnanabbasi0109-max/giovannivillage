@@ -35,7 +35,7 @@ export function AboutClient() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <ImagePlaceholder alt="Giovanni Village Resort" aspect="video" label="The Resort" className="rounded-2xl" />
+              <ImagePlaceholder src="/images/gallery/resort-2.jpg" alt="Giovanni Village Resort" aspect="video" label="The Resort" className="rounded-2xl" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
@@ -103,7 +103,7 @@ export function AboutClient() {
             Located on Kerwa Dam Road, approximately 15 km from Bhopal city centre and 25 km from Raja Bhoj Airport, Giovanni Village Resort offers the best of both worlds — the tranquillity of a forest setting and the convenience of city proximity. The resort is surrounded by the natural beauty of the Kerwa region, with the dam, forest trails, and Van Vihar National Park all within easy reach.
           </p>
           <div className="mt-10">
-            <ImagePlaceholder alt="Giovanni Location" aspect="wide" label="Location Map" className="rounded-2xl" />
+            <ImagePlaceholder src="/images/gallery/resort-5.jpg" alt="Giovanni Location" aspect="wide" label="Location Map" className="rounded-2xl" />
           </div>
         </div>
       </section>

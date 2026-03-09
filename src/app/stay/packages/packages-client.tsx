@@ -58,7 +58,7 @@ export function PackagesClient() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {packages.map((pkg) => (
               <div key={pkg.name} className="bg-white rounded-xl border border-earth-100 shadow-[0_4px_20px_rgba(26,24,20,0.06)] overflow-hidden flex flex-col">
-                <ImagePlaceholder alt={pkg.name} aspect="video" label={pkg.name} className="rounded-none" />
+                <ImagePlaceholder src={pkg.name === "Weekend Escape" ? "/images/rooms/superior-hero.jpg" : pkg.name === "Romance Retreat" ? "/images/rooms/deluxe-hero.jpg" : "/images/rooms/cottage-hero.jpg"} alt={pkg.name} aspect="video" label={pkg.name} className="rounded-none" />
                 <div className="p-6 flex-1 flex flex-col">
                   <p className="font-accent text-xs tracking-[0.15em] uppercase text-gold-600">{pkg.tagline}</p>
                   <h3 className="font-heading text-xl font-semibold text-earth-900 mt-1">{pkg.name}</h3>

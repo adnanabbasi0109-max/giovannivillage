@@ -1,12 +1,14 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 interface ImagePlaceholderProps {
   alt: string;
   className?: string;
   aspect?: "video" | "square" | "portrait" | "wide" | "hero";
   label?: string;
+  src?: string;
 }
 
 const aspectClasses = {
@@ -22,7 +24,28 @@ export function ImagePlaceholder({
   className,
   aspect = "video",
   label,
+  src,
 }: ImagePlaceholderProps) {
+  if (src) {
+    return (
+      <div
+        className={cn(
+          "relative overflow-hidden rounded-lg",
+          aspectClasses[aspect],
+          className
+        )}
+      >
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={cn(

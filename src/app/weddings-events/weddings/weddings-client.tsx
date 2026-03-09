@@ -178,6 +178,7 @@ export function WeddingsClient() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                   <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                     <ImagePlaceholder
+                      src={venue.heroImage.src}
                       alt={venue.name}
                       aspect="video"
                       label={`${venue.name} — Wedding Setup`}
@@ -267,6 +268,7 @@ export function WeddingsClient() {
                 className="bg-earth-700/50 rounded-2xl overflow-hidden border border-white/10"
               >
                 <ImagePlaceholder
+                  src={`/images/gallery/resort-${i + 3}.jpg`}
                   alt={`${story.couple} wedding`}
                   aspect="video"
                   label={story.couple}

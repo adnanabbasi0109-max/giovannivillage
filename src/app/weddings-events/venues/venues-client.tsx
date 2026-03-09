@@ -126,6 +126,7 @@ export function VenuesClient() {
                   <div className="group bg-white rounded-2xl overflow-hidden border border-earth-100 hover:shadow-xl transition-all duration-300">
                     <div className="relative">
                       <ImagePlaceholder
+                        src={venue.heroImage.src}
                         alt={venue.name}
                         aspect="video"
                         label={venue.name}

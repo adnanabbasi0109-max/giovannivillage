@@ -15,9 +15,8 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-label="Hero">
       {/* Background */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-earth-800 via-earth-700 to-forest-800" />
-        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/40" />
+        <img src="/images/gallery/hero.jpg" alt="Giovanni Village Resort" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/50" />
       </div>
 
       {/* Content */}

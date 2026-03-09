@@ -38,6 +38,7 @@ export function RoomDetailClient({ room }: Props) {
               {/* Gallery */}
               <div className="grid grid-cols-2 gap-3 mb-10">
                 <ImagePlaceholder
+                  src={room.heroImage.src}
                   alt={`${room.name} - Main`}
                   aspect="video"
                   label={room.name}
@@ -46,6 +47,7 @@ export function RoomDetailClient({ room }: Props) {
                 {room.images.slice(1, 3).map((img, i) => (
                   <ImagePlaceholder
                     key={i}
+                    src={img.src}
                     alt={img.alt}
                     aspect="video"
                     label={img.alt}
@@ -190,6 +192,7 @@ export function RoomDetailClient({ room }: Props) {
                       <Link key={r.id} href={`/stay/rooms/${r.slug}`} className="block group">
                         <div className="flex gap-3 p-3 rounded-lg hover:bg-ivory-50 transition-colors">
                           <ImagePlaceholder
+                            src={r.heroImage.src}
                             alt={r.name}
                             aspect="square"
                             label=""

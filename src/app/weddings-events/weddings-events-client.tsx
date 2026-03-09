@@ -101,6 +101,7 @@ export function WeddingsEventsClient() {
                 className={i % 2 === 1 ? "lg:order-2" : ""}
               >
                 <ImagePlaceholder
+                  src={venues.find((v) => v.isActive)?.heroImage.src}
                   alt={cat.title}
                   aspect="video"
                   label={cat.label}
@@ -175,6 +176,7 @@ export function WeddingsEventsClient() {
                   <Link href={`/weddings-events/venues/${venue.slug}`}>
                     <div className="group bg-earth-700/50 rounded-2xl overflow-hidden border border-white/10 hover:border-gold-400/30 transition-all duration-300">
                       <ImagePlaceholder
+                        src={venue.heroImage.src}
                         alt={venue.name}
                         aspect="video"
                         label={venue.name}

@@ -51,6 +51,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="md:col-span-2">
               <ImagePlaceholder
+                src={venue.images[0]?.src}
                 alt={venue.images[0]?.alt || venue.name}
                 aspect="video"
                 label={`${venue.name} — Main View`}
@@ -59,12 +60,14 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
             </div>
             <div className="grid grid-rows-2 gap-4">
               <ImagePlaceholder
+                src={venue.images[1]?.src}
                 alt={venue.images[1]?.alt || `${venue.name} view 2`}
                 aspect="video"
                 label={`${venue.name} — View 2`}
                 className="rounded-2xl"
               />
               <ImagePlaceholder
+                src={venue.images[2]?.src}
                 alt={venue.images[2]?.alt || `${venue.name} view 3`}
                 aspect="video"
                 label={`${venue.name} — View 3`}

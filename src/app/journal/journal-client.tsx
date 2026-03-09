@@ -76,6 +76,7 @@ export function JournalClient() {
                   <div className="bg-white rounded-xl overflow-hidden border border-earth-100 shadow-[0_4px_20px_rgba(26,24,20,0.04)] hover:shadow-[0_8px_40px_rgba(26,24,20,0.06)] transition-all duration-300">
                     <div className="relative overflow-hidden">
                       <ImagePlaceholder
+                        src={`/images/gallery/resort-${(i % 10) + 1}.jpg`}
                         alt={post.title}
                         aspect="video"
                         label={post.category}

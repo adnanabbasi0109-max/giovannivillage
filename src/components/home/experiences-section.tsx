@@ -36,6 +36,7 @@ export function ExperiencesSection() {
                       alt={exp.name}
                       aspect="video"
                       label={exp.name}
+                      src={exp.heroImage.src}
                       className="rounded-none group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute top-4 left-4">

@@ -23,7 +23,7 @@ export function JournalPostClient({ slug }: { slug: string }) {
 
       <article className="section-padding">
         <div className="container-luxury max-w-3xl">
-          <ImagePlaceholder alt={title} aspect="video" label="Featured Image" className="rounded-2xl mb-10" />
+          <ImagePlaceholder src="/images/gallery/resort-1.jpg" alt={title} aspect="video" label="Featured Image" className="rounded-2xl mb-10" />
 
           <div className="prose prose-lg max-w-none">
             <p className="text-earth-600 leading-relaxed text-lg">

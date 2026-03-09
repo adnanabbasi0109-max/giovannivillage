@@ -37,6 +37,7 @@ export function StaySection() {
                       alt={room.name}
                       aspect="portrait"
                       label={room.name}
+                      src={room.heroImage.src}
                       className="rounded-none group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-medium text-earth-700">

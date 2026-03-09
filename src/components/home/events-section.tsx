@@ -16,6 +16,7 @@ const eventCategories = [
     icon: Heart,
     href: "/weddings-events/weddings",
     image: "Wedding at Giovanni Village Resort",
+    src: "/images/venues/grand-lawn-hero.jpg",
   },
   {
     title: "Social Celebrations",
@@ -25,6 +26,7 @@ const eventCategories = [
     icon: PartyPopper,
     href: "/weddings-events/social-celebrations",
     image: "Celebration at Giovanni Village Resort",
+    src: "/images/venues/forest-terrace-hero.jpg",
   },
   {
     title: "Corporate Events",
@@ -34,6 +36,7 @@ const eventCategories = [
     icon: Briefcase,
     href: "/weddings-events/corporate-events",
     image: "Corporate event at Giovanni Village Resort",
+    src: "/images/venues/banquet-hero.jpg",
   },
 ];
 
@@ -69,6 +72,7 @@ export function EventsSection() {
                       alt={category.image}
                       aspect="video"
                       label={category.title}
+                      src={category.src}
                       className="rounded-none group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-earth-900/80 to-transparent" />

@@ -17,32 +17,32 @@ const categories = [
 ];
 
 const galleryImages = [
-  { id: "1", label: "Resort Entrance", category: "resort" },
-  { id: "2", label: "Garden Pathway", category: "resort" },
-  { id: "3", label: "Aerial View", category: "resort" },
-  { id: "4", label: "Superior Room", category: "rooms" },
-  { id: "5", label: "Deluxe Room", category: "rooms" },
-  { id: "6", label: "Premium Suite", category: "rooms" },
-  { id: "7", label: "Family Cottage", category: "rooms" },
-  { id: "8", label: "Suite Bathroom", category: "rooms" },
-  { id: "9", label: "Terra Restaurant", category: "dining" },
-  { id: "10", label: "Forest Grill", category: "dining" },
-  { id: "11", label: "Verandah Lounge", category: "dining" },
-  { id: "12", label: "Fine Dining Setup", category: "dining" },
-  { id: "13", label: "Grand Lawn Wedding", category: "weddings" },
-  { id: "14", label: "Mandap Setup", category: "weddings" },
-  { id: "15", label: "Wedding Reception", category: "weddings" },
-  { id: "16", label: "Bridal Prep", category: "weddings" },
-  { id: "17", label: "Corporate Conference", category: "events" },
-  { id: "18", label: "Birthday Celebration", category: "events" },
-  { id: "19", label: "Poolside Party", category: "events" },
-  { id: "20", label: "Forest Trail", category: "nature" },
-  { id: "21", label: "Morning Sunrise", category: "nature" },
-  { id: "22", label: "Bird Watching", category: "nature" },
-  { id: "23", label: "Swimming Pool", category: "experiences" },
-  { id: "24", label: "Spa Treatment", category: "experiences" },
-  { id: "25", label: "Bonfire Evening", category: "experiences" },
-  { id: "26", label: "Cycling", category: "experiences" },
+  { id: "1", label: "Resort Entrance", category: "resort", src: "/images/gallery/resort-1.jpg" },
+  { id: "2", label: "Garden Pathway", category: "resort", src: "/images/gallery/resort-2.jpg" },
+  { id: "3", label: "Aerial View", category: "resort", src: "/images/gallery/resort-3.jpg" },
+  { id: "4", label: "Superior Room", category: "rooms", src: "/images/rooms/superior-hero.jpg" },
+  { id: "5", label: "Deluxe Room", category: "rooms", src: "/images/rooms/deluxe-hero.jpg" },
+  { id: "6", label: "Premium Suite", category: "rooms", src: "/images/rooms/suite-hero.jpg" },
+  { id: "7", label: "Family Cottage", category: "rooms", src: "/images/rooms/cottage-hero.jpg" },
+  { id: "8", label: "Suite Bathroom", category: "rooms", src: "/images/rooms/suite-3.jpg" },
+  { id: "9", label: "Terra Restaurant", category: "dining", src: "/images/dining/terra-hero.jpg" },
+  { id: "10", label: "Forest Grill", category: "dining", src: "/images/dining/forest-grill-hero.jpg" },
+  { id: "11", label: "Verandah Lounge", category: "dining", src: "/images/dining/verandah-hero.jpg" },
+  { id: "12", label: "Fine Dining Setup", category: "dining", src: "/images/gallery/resort-4.jpg" },
+  { id: "13", label: "Grand Lawn Wedding", category: "weddings", src: "/images/venues/grand-lawn-hero.jpg" },
+  { id: "14", label: "Mandap Setup", category: "weddings", src: "/images/venues/grand-lawn-3.jpg" },
+  { id: "15", label: "Wedding Reception", category: "weddings", src: "/images/venues/banquet-hero.jpg" },
+  { id: "16", label: "Bridal Prep", category: "weddings", src: "/images/gallery/resort-5.jpg" },
+  { id: "17", label: "Corporate Conference", category: "events", src: "/images/venues/banquet-2.jpg" },
+  { id: "18", label: "Birthday Celebration", category: "events", src: "/images/venues/forest-terrace-hero.jpg" },
+  { id: "19", label: "Poolside Party", category: "events", src: "/images/venues/poolside-hero.jpg" },
+  { id: "20", label: "Forest Trail", category: "nature", src: "/images/gallery/resort-6.jpg" },
+  { id: "21", label: "Morning Sunrise", category: "nature", src: "/images/gallery/resort-7.jpg" },
+  { id: "22", label: "Bird Watching", category: "nature", src: "/images/gallery/resort-8.jpg" },
+  { id: "23", label: "Swimming Pool", category: "experiences", src: "/images/experiences/pool-hero.jpg" },
+  { id: "24", label: "Spa Treatment", category: "experiences", src: "/images/experiences/spa-hero.jpg" },
+  { id: "25", label: "Bonfire Evening", category: "experiences", src: "/images/experiences/bonfire-hero.jpg" },
+  { id: "26", label: "Cycling", category: "experiences", src: "/images/experiences/cycling-hero.jpg" },
 ];
 
 export function GalleryClient() {
@@ -95,6 +95,7 @@ export function GalleryClient() {
                   className="group cursor-pointer overflow-hidden rounded-xl"
                 >
                   <ImagePlaceholder
+                    src={img.src}
                     alt={img.label}
                     label={img.label}
                     aspect="square"

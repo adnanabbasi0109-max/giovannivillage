@@ -1,0 +1,247 @@
+import { Venue } from "@/types";
+
+export const venues: Venue[] = [
+  {
+    id: "the-grand-lawn",
+    slug: "the-grand-lawn",
+    name: "The Grand Lawn",
+    shortDescription:
+      "An expansive open-air lawn surrounded by mature trees, ideal for grand weddings and large celebrations.",
+    description:
+      "The Grand Lawn is Giovanni Village Resort's signature outdoor venue — a sweeping green expanse framed by towering trees and manicured hedges. Bathed in natural light by day and lit by starlight and elegant décor by evening, this venue has hosted some of the region's most memorable weddings and celebrations. With a capacity of up to 1,000 guests, it offers the perfect canvas for grand celebrations.",
+    tagline: "Where Grand Celebrations Unfold",
+    images: [
+      { src: "/images/venues/grand-lawn-1.jpg", alt: "The Grand Lawn at Giovanni Village Resort" },
+      { src: "/images/venues/grand-lawn-2.jpg", alt: "Grand Lawn evening setup" },
+      { src: "/images/venues/grand-lawn-3.jpg", alt: "Grand Lawn wedding" },
+    ],
+    heroImage: { src: "/images/venues/grand-lawn-hero.jpg", alt: "The Grand Lawn" },
+    capacity: {
+      min: 100,
+      max: 1000,
+      seated: 600,
+      standing: 1000,
+      theatre: 800,
+    },
+    venueType: "outdoor",
+    idealFor: ["wedding", "reception", "sangeet", "corporate", "family_gathering"],
+    features: [
+      "15,000 sq ft of manicured open lawn",
+      "Surrounded by mature trees and gardens",
+      "Dedicated stage and mandap area",
+      "Built-in lighting infrastructure",
+      "Direct access to resort amenities",
+      "Ample parking for large gatherings",
+      "Power and AV setup ready",
+    ],
+    amenities: [
+      "Dedicated event coordinator",
+      "Restroom facilities nearby",
+      "Valet parking",
+      "Catering kitchen access",
+      "Bridal suite access",
+      "DJ and sound setup area",
+    ],
+    layoutOptions: [
+      { name: "Wedding Layout", capacity: 600, description: "Mandap, guest seating, dining area, and dance floor" },
+      { name: "Reception Layout", capacity: 800, description: "Stage, open seating, buffet stations, and bar" },
+      { name: "Corporate Layout", capacity: 500, description: "Stage, theatre seating, breakout areas" },
+    ],
+    rentalBasis: "per_event",
+    basePrice: 150000,
+    addOns: [],
+    isActive: true,
+    sortOrder: 1,
+    seo: {
+      title: "The Grand Lawn – Wedding & Event Venue | Giovanni Village Resort",
+      description:
+        "Host grand weddings and celebrations at The Grand Lawn, Giovanni Village Resort, Bhopal. Capacity up to 1,000 guests in a stunning natural setting.",
+    },
+    schema: {},
+    faq: [
+      { id: "gl-1", question: "What is the guest capacity of The Grand Lawn?", answer: "The Grand Lawn can accommodate up to 1,000 guests standing and 600 guests seated.", category: "events", sortOrder: 1 },
+      { id: "gl-2", question: "Is The Grand Lawn suitable for weddings?", answer: "Yes, The Grand Lawn is our signature wedding venue with dedicated mandap and stage areas, elegant lighting, and a beautiful natural backdrop.", category: "events", sortOrder: 2 },
+      { id: "gl-3", question: "What is included in the venue rental?", answer: "Venue rental includes the lawn, basic lighting, power setup, event coordinator support, and access to restroom facilities. Catering, décor, and entertainment are arranged separately or as part of a package.", category: "events", sortOrder: 3 },
+    ],
+  },
+  {
+    id: "the-forest-terrace",
+    slug: "the-forest-terrace",
+    name: "The Forest Terrace",
+    shortDescription:
+      "An intimate covered terrace nestled at the forest edge, perfect for refined gatherings and cocktail evenings.",
+    description:
+      "The Forest Terrace offers an intimate setting where the canopy meets curated elegance. With a partially covered structure and open views of the surrounding forest, this venue is ideal for cocktail receptions, engagement celebrations, milestone birthdays, and intimate corporate gatherings. The natural setting creates an atmosphere that no amount of decoration alone can achieve.",
+    tagline: "Intimate Elegance, Forest Setting",
+    images: [
+      { src: "/images/venues/forest-terrace-1.jpg", alt: "The Forest Terrace" },
+      { src: "/images/venues/forest-terrace-2.jpg", alt: "Forest Terrace evening" },
+    ],
+    heroImage: { src: "/images/venues/forest-terrace-hero.jpg", alt: "The Forest Terrace" },
+    capacity: {
+      min: 30,
+      max: 200,
+      seated: 120,
+      standing: 200,
+    },
+    venueType: "covered_outdoor",
+    idealFor: ["engagement", "cocktail", "birthday", "anniversary", "pre_wedding", "corporate"],
+    features: [
+      "Partially covered with open forest views",
+      "3,000 sq ft versatile space",
+      "Ambient lighting pre-installed",
+      "Natural stone flooring",
+      "Built-in bar counter area",
+      "Forest canopy backdrop",
+    ],
+    amenities: [
+      "Dedicated event coordinator",
+      "Bar setup area",
+      "Sound system hookup",
+      "Nearby restrooms",
+      "Climate-assisted comfort",
+    ],
+    layoutOptions: [
+      { name: "Cocktail Layout", capacity: 200, description: "Standing reception with bar stations and lounge seating" },
+      { name: "Seated Dinner", capacity: 120, description: "Round table dining with stage area" },
+      { name: "Boardroom", capacity: 40, description: "Conference-style seating for executive events" },
+    ],
+    rentalBasis: "per_event",
+    basePrice: 75000,
+    addOns: [],
+    isActive: true,
+    sortOrder: 2,
+    seo: {
+      title: "The Forest Terrace – Intimate Venue | Giovanni Village Resort",
+      description:
+        "The Forest Terrace at Giovanni Village Resort offers an intimate celebration space for up to 200 guests, nestled at the forest edge near Bhopal.",
+    },
+    schema: {},
+    faq: [
+      { id: "ft-1", question: "Is The Forest Terrace covered?", answer: "The Forest Terrace is partially covered, providing shelter while maintaining the open-air forest ambience. In case of rain, additional weather protection can be arranged.", category: "events", sortOrder: 1 },
+      { id: "ft-2", question: "What events work best at The Forest Terrace?", answer: "This venue is ideal for cocktail evenings, engagement parties, milestone birthdays, anniversaries, and intimate corporate gatherings of 30 to 200 guests.", category: "events", sortOrder: 2 },
+    ],
+  },
+  {
+    id: "the-banquet-hall",
+    slug: "the-banquet-hall",
+    name: "The Banquet Hall",
+    shortDescription:
+      "A climate-controlled indoor banquet space with elegant interiors, suitable for all seasons.",
+    description:
+      "The Banquet Hall at Giovanni Village Resort is a fully climate-controlled indoor venue designed for year-round celebrations and corporate events. With sophisticated interiors featuring warm lighting, neutral tones, and flexible layouts, this space adapts effortlessly to weddings, conferences, gala dinners, and social gatherings. A pre-function foyer adds a graceful arrival experience.",
+    tagline: "Timeless Celebrations, Any Season",
+    images: [
+      { src: "/images/venues/banquet-1.jpg", alt: "The Banquet Hall" },
+      { src: "/images/venues/banquet-2.jpg", alt: "Banquet Hall conference setup" },
+      { src: "/images/venues/banquet-3.jpg", alt: "Banquet Hall dinner" },
+    ],
+    heroImage: { src: "/images/venues/banquet-hero.jpg", alt: "The Banquet Hall" },
+    capacity: {
+      min: 50,
+      max: 400,
+      seated: 300,
+      standing: 400,
+      theatre: 350,
+      classroom: 200,
+      ushape: 60,
+      boardroom: 50,
+    },
+    venueType: "indoor",
+    idealFor: ["wedding", "reception", "corporate", "conference", "engagement", "anniversary"],
+    features: [
+      "5,000 sq ft climate-controlled hall",
+      "Pre-function foyer and lounge",
+      "Built-in AV and projection system",
+      "Modular stage",
+      "Elegant chandeliers and ambient lighting",
+      "Dedicated bridal prep room",
+      "Sound-proofed walls",
+    ],
+    amenities: [
+      "Full AV setup (projector, screen, sound)",
+      "Dedicated event coordinator",
+      "Bridal room",
+      "Green room",
+      "Catering pantry adjacent",
+      "Wheelchair accessible",
+    ],
+    layoutOptions: [
+      { name: "Grand Wedding", capacity: 300, description: "Stage, round-table seating, buffet area" },
+      { name: "Conference", capacity: 350, description: "Theatre seating with AV and stage" },
+      { name: "Gala Dinner", capacity: 250, description: "Round table with stage and dance floor" },
+      { name: "Corporate Boardroom", capacity: 50, description: "Boardroom setup with AV" },
+    ],
+    rentalBasis: "per_event",
+    basePrice: 120000,
+    addOns: [],
+    isActive: true,
+    sortOrder: 3,
+    seo: {
+      title: "The Banquet Hall – Indoor Event Venue | Giovanni Village Resort",
+      description:
+        "The Banquet Hall at Giovanni Village Resort is a climate-controlled indoor venue for up to 400 guests. Ideal for weddings, conferences, and celebrations in Bhopal.",
+    },
+    schema: {},
+    faq: [
+      { id: "bh-1", question: "What is the capacity of The Banquet Hall?", answer: "The Banquet Hall seats up to 300 guests for dining and up to 400 guests for standing receptions or 350 in theatre-style configuration.", category: "events", sortOrder: 1 },
+      { id: "bh-2", question: "Is the venue air-conditioned?", answer: "Yes, The Banquet Hall is fully climate-controlled for year-round comfort.", category: "events", sortOrder: 2 },
+      { id: "bh-3", question: "Does the venue have AV equipment?", answer: "Yes, the hall includes a built-in projector, screen, surround sound system, and modular stage.", category: "events", sortOrder: 3 },
+    ],
+  },
+  {
+    id: "the-poolside-deck",
+    slug: "the-poolside-deck",
+    name: "The Poolside Deck",
+    shortDescription:
+      "A stylish deck by the resort pool, perfect for cocktail parties, sundowners, and casual celebrations.",
+    description:
+      "The Poolside Deck brings together the resort's sparkling pool with a sleek wooden deck, creating a vibrant yet refined venue for cocktail evenings, sundowner parties, birthday celebrations, and casual corporate mixers. With ambient pool lighting and the resort grounds as a backdrop, this is where relaxed elegance meets celebration.",
+    tagline: "Celebrations by the Water",
+    images: [
+      { src: "/images/venues/poolside-1.jpg", alt: "The Poolside Deck" },
+      { src: "/images/venues/poolside-2.jpg", alt: "Poolside evening setup" },
+    ],
+    heroImage: { src: "/images/venues/poolside-hero.jpg", alt: "The Poolside Deck" },
+    capacity: {
+      min: 20,
+      max: 150,
+      seated: 80,
+      standing: 150,
+    },
+    venueType: "outdoor",
+    idealFor: ["cocktail", "birthday", "anniversary", "corporate", "engagement"],
+    features: [
+      "2,000 sq ft wooden deck by the pool",
+      "Ambient pool and landscape lighting",
+      "Lounge furniture available",
+      "Bar counter setup",
+      "Music and DJ area",
+    ],
+    amenities: [
+      "Poolside bar service",
+      "Lounge seating",
+      "Sound system",
+      "Nearby restrooms",
+      "Resort grounds access",
+    ],
+    layoutOptions: [
+      { name: "Cocktail Party", capacity: 150, description: "Standing with bar stations and lounge areas" },
+      { name: "Seated Celebration", capacity: 80, description: "Table seating with buffet and bar" },
+    ],
+    rentalBasis: "per_event",
+    basePrice: 50000,
+    addOns: [],
+    isActive: true,
+    sortOrder: 4,
+    seo: {
+      title: "The Poolside Deck – Party Venue | Giovanni Village Resort",
+      description:
+        "Host cocktail evenings and celebrations at The Poolside Deck, Giovanni Village Resort, Bhopal. Stylish poolside venue for up to 150 guests.",
+    },
+    schema: {},
+    faq: [
+      { id: "pd-1", question: "Can we use the pool during events?", answer: "Pool use during events is subject to arrangement and safety protocols. Please discuss with our events team.", category: "events", sortOrder: 1 },
+    ],
+  },
+];

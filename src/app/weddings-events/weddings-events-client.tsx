@@ -46,7 +46,7 @@ const eventCategories = [
     ],
     href: "/weddings-events/social-celebrations",
     cta: "Plan a Celebration",
-    image: "/images/venues/forest-terrace-hero.jpg",
+    image: "/images/venues/banquet-hero.jpg",
   },
   {
     id: "corporate",

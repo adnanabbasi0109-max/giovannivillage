@@ -76,10 +76,10 @@ export const venues: Venue[] = [
       "Sudesh Lawns comprise two magnificent outdoor spaces set between dense trees at Giovanni Village. The larger lawn spans 51,000 sq ft while the intimate lawn offers 14,000 sq ft of verdant space. These lawns are perfect for dreamy outdoor weddings, cultural events, and large celebrations where the natural forest canopy creates an unmatched ambience. Whether it's a grand reception under the stars or an intimate garden ceremony, Sudesh Lawns deliver an enchanting setting.",
     tagline: "Dreamy Outdoor Gatherings Under the Canopy",
     images: [
-      { src: "/images/venues/forest-terrace-2.jpg", alt: "Sudesh Lawns at Giovanni Village" },
-      { src: "/images/venues/banquet-hero.jpg", alt: "Sudesh Lawns evening setup" },
+      { src: "/images/venues/banquet-hero.jpg", alt: "Sudesh Lawns at Giovanni Village" },
+      { src: "/images/venues/forest-terrace-1.jpg", alt: "Sudesh Lawns evening setup" },
     ],
-    heroImage: { src: "/images/venues/forest-terrace-1.jpg", alt: "Sudesh Lawns" },
+    heroImage: { src: "/images/venues/forest-terrace-2.jpg", alt: "Sudesh Lawns" },
     capacity: {
       min: 100,
       max: 3000,
@@ -202,7 +202,7 @@ export const venues: Venue[] = [
       { src: "/images/venues/grand-lawn-3.jpg", alt: "Cocktail Lawn at Giovanni Village" },
       { src: "/images/venues/poolside-2.jpg", alt: "Cocktail Lawn evening setup" },
     ],
-    heroImage: { src: "/images/venues/forest-terrace-hero.jpg", alt: "Cocktail Lawn" },
+    heroImage: { src: "/images/venues/forest-terrace-1.jpg", alt: "Cocktail Lawn" },
     capacity: {
       min: 30,
       max: 200,
@@ -258,7 +258,7 @@ export const venues: Venue[] = [
     images: [
       { src: "/images/venues/poolside-1.jpg", alt: "Poolside Lawn at Giovanni Village" },
     ],
-    heroImage: { src: "/images/venues/banquet-hero.jpg", alt: "Poolside Lawn" },
+    heroImage: { src: "/images/venues/forest-terrace-hero.jpg", alt: "Poolside Lawn" },
     capacity: {
       min: 20,
       max: 100,

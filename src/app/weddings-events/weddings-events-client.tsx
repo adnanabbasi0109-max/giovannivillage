@@ -27,6 +27,7 @@ const eventCategories = [
     ],
     href: "/weddings-events/weddings",
     cta: "Explore Weddings",
+    image: "/images/venues/poolside-hero.jpg",
   },
   {
     id: "social",
@@ -45,6 +46,7 @@ const eventCategories = [
     ],
     href: "/weddings-events/social-celebrations",
     cta: "Plan a Celebration",
+    image: "/images/venues/forest-terrace-hero.jpg",
   },
   {
     id: "corporate",
@@ -63,6 +65,7 @@ const eventCategories = [
     ],
     href: "/weddings-events/corporate-events",
     cta: "Plan an Event",
+    image: "/images/venues/banquet-1.jpg",
   },
 ];
 
@@ -101,7 +104,7 @@ export function WeddingsEventsClient() {
                 className={i % 2 === 1 ? "lg:order-2" : ""}
               >
                 <ImagePlaceholder
-                  src={venues.find((v) => v.isActive)?.heroImage.src}
+                  src={cat.image}
                   alt={cat.title}
                   aspect="video"
                   label={cat.label}

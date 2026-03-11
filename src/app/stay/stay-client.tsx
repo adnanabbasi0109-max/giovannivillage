@@ -25,7 +25,7 @@ export function StayPageClient() {
       <section className="py-10 bg-ivory-50 border-b border-earth-100">
         <div className="container-luxury max-w-3xl text-center">
           <p className="text-earth-700 leading-relaxed">
-            Giovanni Village Resort offers four distinct accommodation categories: Superior Rooms with garden views, Deluxe Rooms with forest views, the Premium Suite with panoramic views and personal concierge, and spacious Family Cottages with private gardens. All rooms include complimentary breakfast, Wi-Fi, and pool access. Check-in is at {globalSettings.checkInTime}, check-out at {globalSettings.checkOutTime}.
+            Giovanni Village Resort offers a range of accommodation options including King Rooms with pool and garden views, Junior Suites with private decks, unique suites with open-to-sky bathtubs and plunge pools, a Sunrise Cottage with forest views, and luxurious Royal and Presidential Suites with private lawns. All rooms include complimentary breakfast, Wi-Fi, and pool access. Check-in is at {globalSettings.checkInTime}, check-out at {globalSettings.checkOutTime}.
           </p>
         </div>
       </section>

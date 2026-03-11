@@ -196,6 +196,9 @@ export type EventType =
   | "family_gathering"
   | "reunion"
   | "pre_wedding"
+  | "concert"
+  | "meeting"
+  | "workshop"
   | "custom";
 
 // ---- Party Planner ----

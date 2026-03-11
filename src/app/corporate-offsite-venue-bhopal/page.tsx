@@ -37,7 +37,7 @@ export default function Page() {
       ctaPrimary={{ label: "Request a Proposal", href: "/weddings-events/venues" }}
       ctaSecondary={{ label: "View Accommodation", href: "/stay" }}
       faq={[
-        { q: "What is the largest conference capacity at Giovanni?", a: "Our Grand Lawn and Banquet Hall can accommodate up to 300 attendees in theatre-style seating. For boardroom-style meetings, we have spaces for 20 to 60 participants." },
+        { q: "What is the largest conference capacity at Giovanni?", a: "The Aria can accommodate up to 4,000 attendees in theatre-style seating. The Forum offers boardroom-style meetings for 20 to 60 participants." },
         { q: "Is high-speed internet available for presentations and video calls?", a: "Yes, all conference and meeting spaces have dedicated high-speed Wi-Fi. We also provide LAN connections and technical support for seamless presentations and video conferencing." },
         { q: "Can you arrange team-building activities?", a: "Yes, we organise a range of team activities including outdoor challenges, treasure hunts, nature treks, cricket matches, cycling, and bonfire evenings. Custom programmes can be designed for your team." },
         { q: "How do we book a corporate offsite?", a: "Contact our events team through the website or call us directly. We will share a customised proposal based on your group size, duration, and requirements. Site visits are welcome." },

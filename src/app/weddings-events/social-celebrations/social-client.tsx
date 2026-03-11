@@ -23,42 +23,42 @@ const celebrationTypes = [
     title: "Birthday Celebrations",
     description:
       "From a child's magical first birthday to a distinguished 50th, our venues and team create age-appropriate celebrations with customised décor, cakes, entertainment, and dining.",
-    idealVenues: ["The Forest Terrace", "The Poolside Deck", "The Banquet Hall"],
+    idealVenues: ["Sudesh Lawns", "Poolside Lawn", "The Aria"],
   },
   {
     icon: Heart,
     title: "Anniversary Celebrations",
     description:
       "Mark the milestone years with an intimate dinner under the stars or a grand celebration with family and friends. Our team curates every element to honour your journey together.",
-    idealVenues: ["The Forest Terrace", "The Banquet Hall"],
+    idealVenues: ["Cocktail Lawn", "The Aria"],
   },
   {
     icon: GlassWater,
     title: "Engagement Parties",
     description:
       "Toast to your future in style. From cocktail evenings on the poolside deck to elegant receptions in the banquet hall, create the perfect backdrop for your engagement announcement.",
-    idealVenues: ["The Poolside Deck", "The Forest Terrace", "The Banquet Hall"],
+    idealVenues: ["Poolside Lawn", "Cocktail Lawn", "The Aria"],
   },
   {
     icon: Users,
     title: "Family Reunions",
     description:
       "Bring the family together in a setting that encourages connection. With accommodation, dining, and activity options, Giovanni is the ideal venue for multi-generational gatherings.",
-    idealVenues: ["The Grand Lawn", "The Banquet Hall"],
+    idealVenues: ["The Aria", "Sudesh Lawns"],
   },
   {
     icon: PartyPopper,
     title: "Festive & Holiday Celebrations",
     description:
       "Celebrate Diwali, Holi, Christmas, or New Year with themed events, special menus, and festive décor. Let us turn the season into an unforgettable experience.",
-    idealVenues: ["The Grand Lawn", "The Poolside Deck"],
+    idealVenues: ["Sudesh Lawns", "Poolside Lawn"],
   },
   {
     icon: Gift,
     title: "Farewell & Retirement Parties",
     description:
       "Honour a colleague, mentor, or loved one with a celebration that reflects their legacy. From intimate gatherings to larger events, we tailor every detail.",
-    idealVenues: ["The Forest Terrace", "The Banquet Hall"],
+    idealVenues: ["Cocktail Lawn", "The Forum"],
   },
 ];
 

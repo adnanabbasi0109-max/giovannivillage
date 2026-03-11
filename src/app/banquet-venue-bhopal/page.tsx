@@ -3,7 +3,7 @@ import { SEOLandingPage } from "@/components/shared/seo-landing-page";
 
 export const metadata: Metadata = {
   title: "Banquet Venue in Bhopal | Giovanni Village Resort",
-  description: "Book a premium banquet hall near Bhopal at Giovanni Village Resort. Air-conditioned indoor venue for weddings, receptions, conferences, and social events — up to 300 guests.",
+  description: "Book a premium banquet hall near Bhopal at Giovanni Village Resort. The Aria — a 10,000 sq ft pillarless banquet hall with 50,000 sq ft lawn for weddings, receptions, and events — up to 5,000 guests.",
   alternates: { canonical: "/banquet-venue-bhopal" },
 };
 
@@ -14,9 +14,9 @@ export default function Page() {
       title="Premium Banquet Hall & Event Venue Near Bhopal"
       subtitle="Giovanni Village Resort offers elegant, air-conditioned banquet facilities for weddings, receptions, corporate events, and private celebrations — with full catering and event support."
       introHeading="An Indoor Venue That Does Not Compromise on Ambience"
-      introText="Finding a banquet venue near Bhopal that combines professional service, beautiful interiors, and a memorable setting can be challenging. Giovanni Village Resort solves that with a fully air-conditioned banquet hall designed for events ranging from intimate gatherings of 50 to grand celebrations of 300 guests. The hall features modern lighting, a pre-function area, premium AV equipment, and direct access to our catering kitchen — all set within a resort surrounded by forest, giving your event a backdrop no city banquet hall can match."
+      introText="Finding a banquet venue near Bhopal that combines professional service, beautiful interiors, and a memorable setting can be challenging. Giovanni Village Resort solves that with The Aria — a magnificent 10,000 sq ft pillarless banquet hall connected to a 50,000 sq ft manicured lawn — designed for events ranging from intimate gatherings to grand celebrations of 5,000 guests. The hall features modern lighting, a pre-function area, premium AV equipment, and direct access to our catering kitchen — all set within a resort surrounded by forest, giving your event a backdrop no city banquet hall can match."
       features={[
-        "Air-conditioned banquet hall for up to 300 guests",
+        "10,000 sq ft pillarless banquet hall for up to 5,000 guests",
         "Modern sound, lighting, and AV systems",
         "Pre-function foyer for welcome drinks",
         "In-house catering with customisable menus",
@@ -37,7 +37,7 @@ export default function Page() {
       ctaPrimary={{ label: "Enquire About the Banquet Hall", href: "/weddings-events/venues" }}
       ctaSecondary={{ label: "View All Venues", href: "/weddings-events/venues" }}
       faq={[
-        { q: "What is the capacity of the banquet hall?", a: "The banquet hall accommodates up to 300 guests in a banquet-style arrangement. For theatre-style seating, the capacity increases. Smaller configurations for 50 to 150 guests are also available." },
+        { q: "What is the capacity of the banquet hall?", a: "The Aria accommodates up to 5,000 guests using the combined banquet hall (10,000 sq ft) and attached lawn (50,000 sq ft). For theatre-style seating in the hall alone, up to 4,000 guests. Smaller configurations are also available." },
         { q: "Is the banquet hall air-conditioned?", a: "Yes, the hall is fully air-conditioned with modern climate control systems to ensure guest comfort in all seasons." },
         { q: "Can we bring our own decorator?", a: "Yes, you are welcome to bring your own decorator. We also have empanelled décor partners who are familiar with the venue and can work within various budgets." },
         { q: "Is there accommodation for guests attending the event?", a: "Yes, Giovanni offers rooms, suites, and cottages on the same property. Special group rates are available for event-related room blocks." },

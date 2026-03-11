@@ -18,7 +18,7 @@ export default function Page() {
       features={["Venues for 20 to 1,000 guests", "Indoor and outdoor options", "Poolside deck for casual parties", "Full catering services", "DJ and entertainment setup", "Photography-friendly settings", "Kids' activity zone available", "Online party planner tool"]}
       whyGiovanniHeading="Why Giovanni Is Bhopal's Favourite Party Destination"
       whyGiovanniPoints={[
-        { title: "Versatile Spaces", text: "Four distinct venues — from an intimate forest terrace to a grand open lawn — to match any celebration style and size." },
+        { title: "Versatile Spaces", text: "Five distinct venues — from an intimate poolside lawn to a grand banquet hall with lawn — to match any celebration style and size." },
         { title: "All-Inclusive Options", text: "Venue, catering, décor, music, and coordination — all arranged in one place for a hassle-free celebration." },
         { title: "Easy Planning", text: "Our online Party Planner tool lets you select your preferences and get a tentative budget estimate in minutes." },
         { title: "Beautiful Setting", text: "A resort surrounded by nature provides a stunning backdrop that elevates any party beyond the ordinary." },
@@ -29,7 +29,7 @@ export default function Page() {
       ctaSecondary={{ label: "Explore Venues", href: "/weddings-events/venues" }}
       faq={[
         { q: "What types of parties can be hosted at Giovanni?", a: "Birthdays, anniversaries, engagements, family gatherings, cocktail parties, pre-wedding functions, corporate mixers, and custom celebrations." },
-        { q: "What is the smallest venue available?", a: "The Poolside Deck accommodates intimate gatherings of 20+ guests. The Forest Terrace is ideal for 30–200 guests." },
+        { q: "What is the smallest venue available?", a: "The Poolside Lawn accommodates intimate gatherings of 20+ guests. The Cocktail Lawn is ideal for 30–200 guests." },
         { q: "Can I plan my party online?", a: "Yes, our Party Planner tool lets you select event type, venue, guest count, menu, and enhancements to get a tentative budget estimate." },
         { q: "Is DJ and music available?", a: "Yes, we arrange professional DJ and sound system setup. Live bands and singers can also be organised." },
       ]}

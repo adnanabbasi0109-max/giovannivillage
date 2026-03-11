@@ -14,7 +14,7 @@ const packages = [
     description: "Unwind with a two-night stay, daily breakfast, one spa treatment, and a poolside sundowner — all in the heart of nature.",
     price: 11999,
     originalPrice: 15998,
-    inclusions: ["2-night stay in Superior Room", "Daily breakfast", "One 60-min spa treatment", "Poolside sundowner evening", "Late check-out (subject to availability)"],
+    inclusions: ["2-night stay in King Room - Pool & Garden View", "Daily breakfast", "One 60-min spa treatment", "Poolside sundowner evening", "Late check-out (subject to availability)"],
     validFor: "Valid for stays through March 2026",
     minNights: 2,
   },
@@ -24,7 +24,7 @@ const packages = [
     description: "A curated romantic getaway with candlelight dinner, room décor, spa for two, and champagne welcome — perfect for anniversaries and honeymoons.",
     price: 24999,
     originalPrice: 32000,
-    inclusions: ["2-night stay in Deluxe Room", "Romantic room decoration", "Candlelight dinner for two", "Couple's spa treatment", "Champagne welcome", "Late check-out"],
+    inclusions: ["2-night stay in Junior Suite with Deck & Garden View", "Romantic room decoration", "Candlelight dinner for two", "Couple's spa treatment", "Champagne welcome", "Late check-out"],
     validFor: "Valid year-round",
     minNights: 2,
   },
@@ -34,7 +34,7 @@ const packages = [
     description: "A family package with our spacious cottage, kids' activities, bonfire evening, and meals that bring everyone together.",
     price: 19999,
     originalPrice: 26000,
-    inclusions: ["2-night stay in Family Cottage", "Breakfast for the family", "Kids' activity session", "One bonfire evening", "Pool and cycling access", "Board games kit"],
+    inclusions: ["2-night stay in Sunrise Cottage - Forest View", "Breakfast for the family", "Kids' activity session", "One bonfire evening", "Pool and cycling access", "Board games kit"],
     validFor: "Valid for stays through March 2026",
     minNights: 2,
   },
@@ -58,7 +58,7 @@ export function PackagesClient() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {packages.map((pkg) => (
               <div key={pkg.name} className="bg-white rounded-xl border border-earth-100 shadow-[0_4px_20px_rgba(26,24,20,0.06)] overflow-hidden flex flex-col">
-                <ImagePlaceholder src={pkg.name === "Weekend Escape" ? "/images/rooms/superior-hero.jpg" : pkg.name === "Romance Retreat" ? "/images/rooms/deluxe-hero.jpg" : "/images/rooms/cottage-hero.jpg"} alt={pkg.name} aspect="video" label={pkg.name} className="rounded-none" />
+                <ImagePlaceholder src={pkg.name === "Weekend Escape" ? "/images/rooms/superior-hero.jpg" : pkg.name === "Romance Retreat" ? "/images/rooms/suite-hero.jpg" : "/images/rooms/cottage-hero.jpg"} alt={pkg.name} aspect="video" label={pkg.name} className="rounded-none" />
                 <div className="p-6 flex-1 flex flex-col">
                   <p className="font-accent text-xs tracking-[0.15em] uppercase text-gold-600">{pkg.tagline}</p>
                   <h3 className="font-heading text-xl font-semibold text-earth-900 mt-1">{pkg.name}</h3>

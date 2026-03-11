@@ -6,7 +6,7 @@ import { globalSettings } from "@/data/global";
 const policies = [
   {
     title: "Cancellation & Refund Policy",
-    content: `Standard rooms (Superior, Deluxe, Family Cottage): Free cancellation up to 48 hours before check-in. Premium Suite: Free cancellation up to 72 hours before check-in. Cancellations made within the free cancellation window will receive a full refund to the original payment method. Late cancellations or no-shows may be charged an amount equivalent to one night's stay. Modifications to bookings are subject to availability.`,
+    content: `King Rooms, Junior Suites, and Sunrise Cottage: Free cancellation up to 48 hours before check-in. Master Suite, Royal Suite, and Presidential Suite: Free cancellation up to 72 hours before check-in. Cancellations made within the free cancellation window will receive a full refund to the original payment method. Late cancellations or no-shows may be charged an amount equivalent to one night's stay. Modifications to bookings are subject to availability.`,
   },
   {
     title: "Check-In & Check-Out",

@@ -19,7 +19,7 @@ export function ExperiencesClient() {
       <section className="py-10 bg-ivory-50 border-b border-earth-100">
         <div className="container-luxury max-w-3xl text-center">
           <p className="text-earth-700 leading-relaxed">
-            Giovanni Village Resort offers spa & wellness treatments, guided nature trails, a swimming pool, bonfire & stargazing evenings, resort cycling, and a dedicated kids&apos; activity zone. Most experiences are complimentary for in-house guests; spa and select activities are available at additional cost.
+            Giovanni Village Resort offers Elysium Spa wellness treatments, jungle safaris at Ratapani Wildlife Sanctuary, a soft-touch swimming pool, forest trail cycling, lakeside fishing, farm tours at Royalton, open-air theatre, and a Junior Chef Academy & Kids Zone. Most experiences are complimentary for in-house guests; spa, safari, and select activities are available at additional cost.
           </p>
         </div>
       </section>

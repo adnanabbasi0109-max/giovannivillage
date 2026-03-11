@@ -8,45 +8,105 @@ Giovanni Village Resort is a luxury jungle resort and premier celebration destin
 
 ## Detailed Accommodation
 
-### Superior Room
-- Size: 320 sq ft
-- View: Garden
-- Bed: King or Twin
-- Max Occupancy: 3 (2 adults + 1 child)
-- Rate: From ₹5,999/night (rack rate ₹7,999)
-- Key amenities: Air conditioning, Wi-Fi, smart LED TV, mini bar, rain shower, private balcony, electric kettle, in-room safe
+### King Room - Pool & Garden View
+- Size: 430 sq ft
+- View: Pool & Garden
+- Bed: King
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹8,500/night (rack rate ₹10,000)
+- Key amenities: Air conditioning, Wi-Fi, smart LED TV, mini bar, rain shower, tea/coffee setup, pool access, in-room safe
 - Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, parking
 - Cancellation: Free up to 48 hours before check-in
 
-### Deluxe Room
-- Size: 420 sq ft
-- View: Forest
+### King Room with Private Garden
+- Size: 700 sq ft
+- View: Private Garden
 - Bed: King
-- Max Occupancy: 3 (2 adults + 1 child)
-- Rate: From ₹7,999/night (rack rate ₹10,999)
-- Key amenities: Air conditioning, Wi-Fi, 55" smart TV, stocked mini bar, soaking bathtub, Nespresso machine, private balcony, sitting area, in-room safe
-- Inclusions: Daily breakfast, welcome drink and towel, Wi-Fi, pool and fitness access, parking, evening turndown
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹9,350/night (rack rate ₹11,000)
+- Key amenities: Air conditioning, Wi-Fi, smart LED TV, mini bar, rain shower, tea/coffee setup, private garden access, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, private garden, parking
 - Cancellation: Free up to 48 hours before check-in
 
-### Premium Suite
-- Size: 680 sq ft
-- View: Panoramic Forest
+### Junior Suite with Deck & Garden View
+- Size: 540 sq ft
+- View: Garden
+- Bed: King
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹10,200/night (rack rate ₹12,000)
+- Key amenities: Air conditioning, Wi-Fi, smart LED TV, mini bar, rain shower, tea/coffee setup, private deck, sitting area, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, parking
+- Cancellation: Free up to 48 hours before check-in
+
+### Junior Suite with Deck & Private Garden
+- Size: 700 sq ft
+- View: Private Garden
+- Bed: King
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹11,050/night (rack rate ₹13,000)
+- Key amenities: Air conditioning, Wi-Fi, smart LED TV, mini bar, rain shower, tea/coffee setup, private deck, private garden, sitting area, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, private garden, parking
+- Cancellation: Free up to 48 hours before check-in
+
+### Junior Suite with Open to Sky Bath Tub
+- Size: 530 sq ft (bathroom: 250 sq ft)
+- View: Garden
+- Bed: Natural rubber latex mattress
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹11,900/night (rack rate ₹14,000)
+- Key amenities: Air conditioning, Wi-Fi, smart projector/LED TV, mini bar, open-to-sky bathtub (cold water), French press coffee, tea/coffee setup, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, 24-hour room service, parking
+- Cancellation: Free up to 48 hours before check-in
+
+### Master Suite with Open to Sky Bath Tub
+- Size: 530 sq ft
+- View: Garden
 - Bed: King
 - Max Occupancy: 4 (2 adults + 2 children)
-- Rate: From ₹14,999/night (rack rate ₹19,999)
-- Key amenities: Climate control, high-speed Wi-Fi, 65" smart TV, premium mini bar, freestanding bathtub, walk-in rain shower, Nespresso machine, wraparound balcony, separate living area, in-suite dining area, Bluetooth speaker, in-room safe
-- Inclusions: Premium breakfast, champagne welcome, curated amenity platter, Wi-Fi, pool/fitness/spa access, personal concierge, parking, aromatherapy turndown, late check-out (subject to availability)
+- Rate: From ₹13,500/night (rack rate ₹16,000)
+- Key amenities: Climate control, high-speed Wi-Fi, smart projector/LED TV, premium mini bar, open-to-sky bathtub, walk-in rain shower, French press coffee, sitting area, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, 24-hour room service, parking
 - Cancellation: Free up to 72 hours before check-in
 
-### Family Cottage
-- Size: 800 sq ft (standalone)
-- View: Garden & Forest
-- Beds: King + Twin (two bedrooms)
-- Max Occupancy: 5 (4 adults + 2 children)
-- Rate: From ₹12,999/night (rack rate ₹16,999)
-- Key amenities: Air conditioning, Wi-Fi, 2 smart TVs, mini bar, rain shower, private garden patio, living area, electric kettle, in-room safe
-- Inclusions: Breakfast for 4, welcome drink, Wi-Fi, pool access, parking, board games on request
+### Junior Suite with Open to Sky Plunge Pool
+- Size: 530 sq ft (bathroom: 250 sq ft, plunge pool: 8ft x 6ft)
+- View: Garden
+- Bed: Natural rubber latex mattress
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹12,750/night (rack rate ₹15,000)
+- Key amenities: Air conditioning, Wi-Fi, smart projector/LED TV, mini bar, bathtub, private open-to-sky plunge pool (cold water), tea/coffee setup, in-room safe
+- Inclusions: Daily breakfast, welcome drink, Wi-Fi, pool access, private plunge pool, 24-hour room service, parking
 - Cancellation: Free up to 48 hours before check-in
+
+### Sunrise Cottage - Forest View
+- Size: ~600 sq ft (standalone cottage)
+- View: Forest
+- Bed: King + Twin
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹14,500/night (half board with breakfast + dinner)
+- Key amenities: Air conditioning, Wi-Fi, smart TV, pool access, spa access, nature trail access, organic farm access
+- Inclusions: Farm-fresh breakfast, welcome drink, Wi-Fi, pool access, spa access, nature trails, organic farm, parking
+- Cancellation: Free up to 48 hours before check-in
+
+### Royal Suite with Plunge Pool & Private Garden
+- Size: 1,100 sq ft interior + 2,000 sq ft private lawn
+- View: Private Garden & Forest
+- Bed: King
+- Max Occupancy: 5 (3 adults + 2 children)
+- Rate: From ₹22,000/night (rack rate ₹28,000)
+- Key amenities: Climate control, high-speed Wi-Fi, 65" smart TV, premium mini bar, luxury bathtub, walk-in rain shower, private plunge pool, 2,000 sq ft private lawn, separate living area, Nespresso machine, Bluetooth speaker, in-room safe
+- Inclusions: Premium breakfast, champagne welcome, curated amenity platter, Wi-Fi, pool/fitness/spa access, private plunge pool, personal concierge, parking, late check-out (subject to availability)
+- Cancellation: Free up to 72 hours before check-in
+
+### Presidential Suite with Plunge Pool & Private Garden
+- Size: 1,200 sq ft interior + 8,000 sq ft private lawn
+- View: Private Garden & Panoramic Forest
+- Bed: King
+- Max Occupancy: 4 (2 adults + 2 children)
+- Rate: From ₹35,000/night (rack rate ₹45,000)
+- Key amenities: Climate control, high-speed Wi-Fi, 75" smart TV, gourmet mini bar, luxury freestanding bathtub, walk-in rain shower, private plunge pool, 8,000 sq ft private lawn, separate living & dining area, Nespresso machine, Bluetooth speaker, personal butler service, in-room safe
+- Inclusions: Premium breakfast, champagne welcome with bespoke amenities, curated gourmet platter, Wi-Fi, pool/fitness/spa access, private plunge pool, personal butler, complimentary spa treatment for two, parking, late check-out (subject to availability)
+- Cancellation: Free up to 72 hours before check-in
 
 ## Detailed Venue Information
 
@@ -114,7 +174,7 @@ Giovanni Village Resort is a luxury jungle resort and premier celebration destin
 - Check-in: 2:00 PM
 - Check-out: 11:00 AM
 - Early check-in / late check-out: Subject to availability, additional charge may apply
-- Cancellation: Free up to 48 hours (standard rooms) or 72 hours (suites) before check-in
+- Cancellation: Free up to 48 hours (King Rooms, Junior Suites, Cottage) or 72 hours (Master, Royal, Presidential Suites) before check-in
 - Pets: Not permitted (service animals accommodated with notice)
 - Smoking: Designated outdoor areas only
 - Payment: Credit/debit cards, UPI, net banking, cash accepted

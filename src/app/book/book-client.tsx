@@ -1323,8 +1323,41 @@ export function BookingClient() {
       setConfirmationNumber(confNum);
       setConfirmed(true);
       window.scrollTo({ top: 0, behavior: "smooth" });
+
+      // Send booking notification email in the background
+      if (state.search && state.selectedRoom) {
+        const nights = nightsBetween(state.search.checkIn, state.search.checkOut);
+        fetch("/api/booking", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            confirmationNumber: confNum,
+            guestName: `${guest.firstName} ${guest.lastName}`,
+            guestEmail: guest.email,
+            guestPhone: guest.phone,
+            roomName: state.selectedRoom.roomCategory.name,
+            checkIn: state.search.checkIn,
+            checkOut: state.search.checkOut,
+            adults: state.search.adults,
+            children: state.search.children,
+            nights,
+            roomRate: state.selectedRoom.rateAmount,
+            addOns: confirmedAddOns.map((a) => ({
+              name: a.addOn.name,
+              price: a.totalPrice,
+            })),
+            subtotal: state.totalAmount,
+            tax: state.taxAmount,
+            grandTotal: state.grandTotal,
+            specialRequests: guest.specialRequests,
+            arrivalTime: guest.arrivalTime,
+          }),
+        }).catch(() => {
+          // Email notification is best-effort — don't block the booking confirmation
+        });
+      }
     },
-    []
+    [state.search, state.selectedRoom, state.totalAmount, state.taxAmount, state.grandTotal, confirmedAddOns]
   );
 
   const goToStep = useCallback((step: 1 | 2 | 3) => {

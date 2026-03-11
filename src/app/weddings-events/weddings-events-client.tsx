@@ -80,7 +80,7 @@ export function WeddingsEventsClient() {
       <section className="py-10 bg-ivory-50 border-b border-earth-100">
         <div className="container-luxury max-w-3xl text-center">
           <p className="text-earth-700 leading-relaxed">
-            Giovanni Village Resort offers four distinct event venues near Bhopal: The Grand Lawn (up to 1,000 guests), The Forest Terrace (up to 200 guests), The Banquet Hall (up to 400 guests, climate-controlled), and The Poolside Deck (up to 150 guests). Our dedicated events team handles weddings, social celebrations, and corporate functions with bespoke planning and world-class catering.
+            Giovanni Village Resort offers five distinct event venues near Bhopal: The Aria (up to 5,000 guests with a 10,000 sq ft pillarless banquet hall and 50,000 sq ft lawn), Sudesh Lawns (up to 3,000 guests across two outdoor lawns), The Forum (multi-purpose meeting space for up to 60 guests), Cocktail Lawn (9,000 sq ft for up to 200 guests), and Poolside Lawn (intimate gatherings up to 100 guests). Our dedicated events team handles weddings, social celebrations, and corporate functions with bespoke planning and world-class catering.
           </p>
         </div>
       </section>

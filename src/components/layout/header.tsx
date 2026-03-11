@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -62,24 +63,17 @@ export function Header() {
         <div className="container-luxury flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="relative z-10 flex items-center gap-3">
-            <div className="flex flex-col">
-              <span
-                className={cn(
-                  "font-heading text-xl md:text-2xl font-semibold tracking-wide transition-colors duration-300",
-                  isScrolled ? "text-earth-900" : "text-white"
-                )}
-              >
-                Giovanni
-              </span>
-              <span
-                className={cn(
-                  "font-accent text-[10px] md:text-xs tracking-[0.25em] uppercase transition-colors duration-300",
-                  isScrolled ? "text-gold-600" : "text-gold-300"
-                )}
-              >
-                Village Resort
-              </span>
-            </div>
+            <Image
+              src="/images/logo/logo.png"
+              alt="Giovanni Village Resort"
+              width={180}
+              height={50}
+              className={cn(
+                "h-8 md:h-10 w-auto transition-all duration-300",
+                isScrolled ? "" : "brightness-110"
+              )}
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

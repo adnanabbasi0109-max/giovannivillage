@@ -25,12 +25,18 @@
     "languages": ["English", "Hindi"]
   },
   "accommodation": {
-    "totalCategories": 4,
+    "totalCategories": 10,
     "rooms": [
-      { "name": "Superior Room", "size": "320 sq ft", "view": "Garden", "rate": "From ₹5,999/night", "occupancy": 3 },
-      { "name": "Deluxe Room", "size": "420 sq ft", "view": "Forest", "rate": "From ₹7,999/night", "occupancy": 3 },
-      { "name": "Premium Suite", "size": "680 sq ft", "view": "Panoramic Forest", "rate": "From ₹14,999/night", "occupancy": 4 },
-      { "name": "Family Cottage", "size": "800 sq ft", "view": "Garden & Forest", "rate": "From ₹12,999/night", "occupancy": 5 }
+      { "name": "King Room - Pool & Garden View", "size": "430 sq ft", "view": "Pool & Garden", "rate": "From ₹8,500/night", "occupancy": 5 },
+      { "name": "King Room with Private Garden", "size": "700 sq ft", "view": "Private Garden", "rate": "From ₹9,350/night", "occupancy": 5 },
+      { "name": "Junior Suite with Deck & Garden View", "size": "540 sq ft", "view": "Garden", "rate": "From ₹10,200/night", "occupancy": 5 },
+      { "name": "Junior Suite with Deck & Private Garden", "size": "700 sq ft", "view": "Private Garden", "rate": "From ₹11,050/night", "occupancy": 5 },
+      { "name": "Junior Suite with Open to Sky Bath Tub", "size": "530 sq ft", "view": "Garden", "rate": "From ₹11,900/night", "occupancy": 5 },
+      { "name": "Master Suite with Open to Sky Bath Tub", "size": "530 sq ft", "view": "Garden", "rate": "From ₹13,500/night", "occupancy": 4 },
+      { "name": "Junior Suite with Open to Sky Plunge Pool", "size": "530 sq ft", "view": "Garden", "rate": "From ₹12,750/night", "occupancy": 5 },
+      { "name": "Sunrise Cottage - Forest View", "size": "600 sq ft", "view": "Forest", "rate": "From ₹14,500/night", "occupancy": 5 },
+      { "name": "Royal Suite with Plunge Pool & Private Garden", "size": "1,100 sq ft + 2,000 sq ft lawn", "view": "Private Garden & Forest", "rate": "From ₹22,000/night", "occupancy": 5 },
+      { "name": "Presidential Suite with Plunge Pool & Private Garden", "size": "1,200 sq ft + 8,000 sq ft lawn", "view": "Private Garden & Panoramic Forest", "rate": "From ₹35,000/night", "occupancy": 4 }
     ]
   },
   "dining": [

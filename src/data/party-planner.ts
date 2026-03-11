@@ -6,6 +6,7 @@ export const eventTypes = [
   { id: "engagement", label: "Engagement Ceremony", icon: "gem", description: "Mark the beginning of a beautiful journey" },
   { id: "cocktail", label: "Cocktail Evening", icon: "wine", description: "Sophisticated evenings with fine drinks and conversation" },
   { id: "family_gathering", label: "Family Gathering", icon: "users", description: "Reunions, festivals, and family celebrations" },
+  { id: "wedding", label: "Wedding", icon: "heart", description: "Grand weddings, receptions, and multi-day celebrations" },
   { id: "pre_wedding", label: "Pre-Wedding Function", icon: "music", description: "Mehndi, sangeet, haldi, and more" },
   { id: "corporate", label: "Corporate Gathering", icon: "briefcase", description: "Team events, mixers, and corporate celebrations" },
   { id: "custom", label: "Custom Event", icon: "sparkles", description: "Something unique? We'll make it happen" },

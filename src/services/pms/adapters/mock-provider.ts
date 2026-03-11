@@ -110,7 +110,7 @@ export class MockPMSProvider implements PMSProvider {
       status: "confirmed",
       checkIn: "2026-04-01",
       checkOut: "2026-04-03",
-      roomType: "Deluxe Room",
+      roomType: "King Room - Pool & Garden View",
       guestName: "Guest",
       guestEmail: "guest@example.com",
       totalAmount: 15998,

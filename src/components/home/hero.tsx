@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { CalendarDays, Users, Search } from "lucide-react";
 import { useState } from "react";
@@ -26,6 +27,13 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
         >
+          <Image
+            src="/images/logo/tree.png"
+            alt="Giovanni Village tree icon"
+            width={80}
+            height={80}
+            className="mx-auto mb-5 w-14 md:w-20 h-auto opacity-70 blur-[0.5px]"
+          />
           <p className="font-accent text-sm md:text-base tracking-[0.25em] uppercase text-gold-300 mb-6">
             A Luxury Jungle Resort Near Bhopal
           </p>

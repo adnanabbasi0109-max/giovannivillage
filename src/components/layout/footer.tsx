@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Youtube, MapPin, Phone, Mail, ArrowRight } from "lucide-react";
 import { globalSettings } from "@/data/global";
 
@@ -82,12 +83,13 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="mb-6">
-              <span className="font-heading text-2xl text-white font-semibold">
-                Giovanni
-              </span>
-              <span className="block font-accent text-xs tracking-[0.25em] uppercase text-gold-400 mt-1">
-                Village Resort
-              </span>
+              <Image
+                src="/images/logo/logo.png"
+                alt="Giovanni Village Resort"
+                width={180}
+                height={50}
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-earth-400 text-sm leading-relaxed mb-6 max-w-sm">
               A luxury jungle resort and premier celebration destination near Bhopal,

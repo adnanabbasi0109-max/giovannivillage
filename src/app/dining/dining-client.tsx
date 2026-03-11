@@ -22,7 +22,7 @@ export function DiningClient() {
       <section className="py-10 bg-ivory-50 border-b border-earth-100">
         <div className="container-luxury max-w-3xl text-center">
           <p className="text-earth-700 leading-relaxed">
-            Giovanni Village Resort offers three dining experiences: Terra, our all-day dining restaurant with Indian, continental, and Asian cuisine (7 AM – 10:30 PM); Forest Grill, an open-air specialty restaurant featuring tandoor and barbecue under the stars (7 PM – 10:30 PM, reservation required); and The Verandah Lounge, a relaxed space for cocktails, teas, and light bites throughout the day (10 AM – 11 PM). 24-hour room service is also available.
+            Giovanni Village Resort offers four dining experiences: Gourmet By The Woods, our signature fine dining restaurant with international cuisine (12:30 PM – 3:00 PM, 7:00 PM – 10:30 PM); Pihu, a rooftop restaurant with candle-lit dinners, live music, and stargazing (7:00 PM – 11:00 PM); Berry & Beans, an all-day cafe with light bites, pastries, and artisanal coffees (7:00 AM – 11:00 PM); and The Den, a laid-back bistro bar with comfort food, live sports, and craft cocktails (12:00 PM – 11:30 PM). 24-hour room service is also available.
           </p>
         </div>
       </section>

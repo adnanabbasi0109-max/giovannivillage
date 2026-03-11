@@ -5,7 +5,7 @@ import { BookingClient } from "./book-client";
 export const metadata: Metadata = {
   title: "Book Your Stay | Giovanni Village Resort",
   description:
-    "Reserve your room at Giovanni Village Resort near Bhopal. Choose from Superior Rooms, Deluxe Rooms, Premium Suites, and Family Cottages. Best rate guaranteed.",
+    "Reserve your room at Giovanni Village Resort near Bhopal. Choose from King Rooms, Junior Suites, Master Suites, Cottages, Royal and Presidential Suites. Best rate guaranteed.",
   alternates: { canonical: "/book" },
 };
 

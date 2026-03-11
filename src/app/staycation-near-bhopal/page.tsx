@@ -30,14 +30,14 @@ export default function Page() {
         { title: "Close Yet Completely Different", text: "At just 15 km from the city centre, Giovanni feels worlds apart — surrounded by forest, birdsong, and the calm of Kerwa Dam. No long drives, no flight bookings, just instant escape." },
         { title: "Designed for Relaxation", text: "From plush bedding and quiet rooms to spa treatments and a serene pool, every detail is crafted to help you unwind and recharge over a weekend." },
         { title: "Something for Everyone", text: "Couples can enjoy candlelit dinners and spa packages. Families get cottages, a kids' zone, and cycling trails. Solo travellers find space to read, walk, and reset." },
-        { title: "Food Worth Travelling For", text: "Three dining experiences — Terra for all-day comfort food, Forest Grill for open-air barbecue, and The Verandah for cocktails — mean you never need to leave the resort." },
+        { title: "Food Worth Travelling For", text: "Four dining experiences — Gourmet By The Woods for fine dining, Pihu for rooftop dining under the stars, Berry & Beans for all-day cafe, and The Den for cocktails — mean you never need to leave the resort." },
         { title: "Flexible Packages", text: "Choose from one-night, two-night, or extended staycation packages with meals, spa credits, and activities bundled for great value." },
         { title: "Stress-Free Planning", text: "Book online, drive in, and let us handle everything — from check-in to curated experiences. Your staycation starts the moment you arrive." },
       ]}
       ctaPrimary={{ label: "Book Your Staycation", href: "/book" }}
       ctaSecondary={{ label: "View Rooms & Suites", href: "/stay" }}
       faq={[
-        { q: "How far is Giovanni Village Resort from Bhopal?", a: "Giovanni is approximately 15 km from Bhopal city centre, about a 30-minute drive via Kerwa Dam Road. It is 25 km from Raja Bhoj Airport." },
+        { q: "How far is Giovanni Village Resort from Bhopal?", a: "Giovanni Village Resort is located at 410, Village Kalapani, Kolar Road, Bhopal. Easily accessible from Bhopal city centre." },
         { q: "Are there staycation packages available?", a: "Yes, we offer curated staycation packages that include accommodation, meals, spa credits, and activities. Packages are available for couples, families, and individuals." },
         { q: "Is a one-night staycation worth it?", a: "Absolutely. Even a single night at Giovanni provides a complete change of environment — enjoy the pool, a spa session, forest trails, and two meals without the exhaustion of long-distance travel." },
         { q: "What activities are available during a staycation?", a: "Swimming, guided nature walks, cycling, bird watching, spa treatments, outdoor dining, and a kids' activity zone. Seasonal bonfires and stargazing are also arranged." },

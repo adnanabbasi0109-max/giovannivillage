@@ -39,7 +39,7 @@ export default function Page() {
       faq={[
         { q: "What types of celebrations can be hosted at Giovanni?", a: "Birthdays, anniversaries, engagement parties, baby showers, retirement celebrations, reunion dinners, festive gatherings, and any personal milestone you wish to mark." },
         { q: "Can you arrange a surprise celebration?", a: "Yes, our events team has experience organising surprise celebrations. We coordinate discreetly with the planning party to manage setup, guest arrivals, and the reveal." },
-        { q: "What is the minimum guest count for booking a venue?", a: "Our smallest venue, the Poolside Deck, accommodates gatherings from 20 guests. For larger celebrations, the banquet hall and lawns can host up to 500 guests." },
+        { q: "What is the minimum guest count for booking a venue?", a: "Our smallest venue, the Poolside Lawn, accommodates gatherings from 20 guests. For larger celebrations, The Aria and Sudesh Lawns can host up to 5,000 guests." },
         { q: "Do you offer all-inclusive celebration packages?", a: "Yes, we offer packages that bundle venue, catering, basic décor, and accommodation at special rates. These can be customised based on your celebration type and preferences." },
       ]}
       relatedLinks={[

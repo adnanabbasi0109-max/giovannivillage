@@ -30,7 +30,7 @@ const whyChoose = [
     icon: Users,
     title: "Venues for Every Scale",
     description:
-      "From intimate ceremonies for 30 guests to grand celebrations for 1,000, our versatile venues adapt to your vision.",
+      "From intimate ceremonies for 30 guests to grand celebrations for 5,000, our versatile venues adapt to your vision.",
   },
   {
     icon: Utensils,
@@ -83,14 +83,14 @@ const weddingStories = [
     type: "Grand Indian Wedding",
     guests: "500+",
     quote:
-      "Giovanni made our wedding an absolute fairytale. The Grand Lawn under the stars was magical, and every guest commented on the impeccable hospitality.",
+      "Giovanni made our wedding an absolute fairytale. The Aria under the stars was magical, and every guest commented on the impeccable hospitality.",
   },
   {
     couple: "Meera & Vikram",
     type: "Intimate Forest Wedding",
     guests: "80",
     quote:
-      "We wanted something different — an intimate ceremony surrounded by nature. The Forest Terrace was the perfect backdrop for our special day.",
+      "We wanted something different — an intimate ceremony surrounded by nature. Sudesh Lawns was the perfect backdrop for our special day.",
   },
   {
     couple: "Ananya & Rohan",

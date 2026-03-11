@@ -52,7 +52,7 @@ const eventCategories = [
     id: "corporate",
     icon: Building2,
     label: "Corporate Events",
-    title: "Where Business Meets Inspiration",
+    title: "Elevate Your Corporate Gatherings",
     description:
       "Step away from the boardroom and into a setting that inspires creativity and collaboration. Giovanni Village Resort hosts corporate offsites, conferences, product launches, and team retreats with seamless execution and five-star hospitality.",
     features: [

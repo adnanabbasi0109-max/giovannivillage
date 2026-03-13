@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors */
+  --gold-50: #FDF9F0;
+  --gold-100: #FBF3E0;
+  --gold-200: #F5E4B8;
+  --gold-300: #EFD590;
+  --gold-400: #E9C668;
+  --gold-500: #D4A853;
+  --gold-600: #B8903A;
+  --gold-700: #8C6D2C;
+  --gold-800: #604B1E;
+  --gold-900: #342810;
+
+  --ivory-50: #FFFDF9;
+  --ivory-100: #FEFCF6;
+  --ivory-200: #FDF8ED;
+  --ivory-300: #FBF4E4;
+  --ivory-400: #F9F0DB;
+  --ivory-500: #F5ECD0;
+
+  --forest-50: #F2F7F4;
+  --forest-100: #E5EFE9;
+  --forest-200: #C2D9CC;
+  --forest-300: #9FC3B0;
+  --forest-400: #7CAD93;
+  --forest-500: #5A8F6F;
+  --forest-600: #476F57;
+  --forest-700: #345040;
+  --forest-800: #213028;
+
+  --earth-50: #FAF9F7;
+  --earth-100: #F5F3EF;
+  --earth-200: #E8E4DD;
+  --earth-300: #DBD5CB;
+  --earth-400: #CEC6B9;
+  --earth-500: #B5AB9A;
+  --earth-600: #9A8E7B;
+  --earth-700: #746B5C;
+  --earth-800: #4E483D;
+  --earth-900: #28251E;
+
+  --text-primary: #1A1814;
+  --text-secondary: #4E483D;
+  --text-muted: #9A8E7B;
+  --text-inverse: #FFFDF9;
+
+  --background: #FFFDF9;
+  --foreground: #1A1814;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
+
+  --color-ivory-50: var(--ivory-50);
+  --color-ivory-100: var(--ivory-100);
+  --color-ivory-200: var(--ivory-200);
+  --color-ivory-300: var(--ivory-300);
+  --color-ivory-400: var(--ivory-400);
+  --color-ivory-500: var(--ivory-500);
+
+  --color-forest-50: var(--forest-50);
+  --color-forest-100: var(--forest-100);
+  --color-forest-200: var(--forest-200);
+  --color-forest-300: var(--forest-300);
+  --color-forest-400: var(--forest-400);
+  --color-forest-500: var(--forest-500);
+  --color-forest-600: var(--forest-600);
+  --color-forest-700: var(--forest-700);
+  --color-forest-800: var(--forest-800);
+
+  --color-earth-50: var(--earth-50);
+  --color-earth-100: var(--earth-100);
+  --color-earth-200: var(--earth-200);
+  --color-earth-300: var(--earth-300);
+  --color-earth-400: var(--earth-400);
+  --color-earth-500: var(--earth-500);
+  --color-earth-600: var(--earth-600);
+  --color-earth-700: var(--earth-700);
+  --color-earth-800: var(--earth-800);
+  --color-earth-900: var(--earth-900);
+
+  --font-heading: 'Playfair Display', 'Georgia', serif;
+  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-accent: 'Cormorant Garamond', 'Georgia', serif;
+}
+
+/* Base Styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--gold-200);
+  color: var(--text-primary);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ivory-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--earth-400);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--earth-500);
+}
+
+/* Premium focus styles */
+*:focus-visible {
+  outline: 2px solid var(--gold-500);
+  outline-offset: 2px;
+}
+
+/* Placeholder image styling */
+.placeholder-image {
+  background: linear-gradient(135deg, var(--earth-200) 0%, var(--earth-300) 50%, var(--earth-200) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--earth-500);
+  font-family: var(--font-accent);
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+/* Gold gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, var(--gold-600) 0%, var(--gold-400) 50%, var(--gold-600) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Elegant divider */
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--gold-400) 50%, transparent 100%);
+}
+
+/* Section padding utility */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+/* Container */
+.container-luxury {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container-luxury {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-luxury {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

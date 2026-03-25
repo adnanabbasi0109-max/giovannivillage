@@ -5,6 +5,8 @@ import { PageHero } from "@/components/shared/page-hero";
 import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 import { Check } from "lucide-react";
 import { experiences } from "@/data/experiences";
+import { activities } from "@/data/activities";
+import Image from "next/image";
 
 export function ExperiencesClient() {
   return (
@@ -78,6 +80,57 @@ export function ExperiencesClient() {
                     </div>
                   </div>
                 </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Activities Section */}
+      <section className="section-padding bg-ivory-50">
+        <div className="container-luxury">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <span className="inline-block bg-gold-50 text-gold-700 text-xs font-medium px-3 py-1 rounded-full uppercase tracking-wide mb-3">
+              Activities
+            </span>
+            <h2 className="font-heading text-3xl md:text-4xl font-medium text-earth-900">
+              Countryside Chronicles
+            </h2>
+            <p className="mt-3 text-earth-600 max-w-2xl mx-auto">
+              Giovanni Village Resort Activities &amp; Experiences
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {activities.map((activity, i) => (
+              <motion.div
+                key={activity.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.1 }}
+                className="text-center group"
+              >
+                <div className="w-24 h-24 mx-auto mb-4 relative">
+                  <Image
+                    src={activity.icon}
+                    alt={activity.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <h3 className="font-heading text-lg font-medium text-gold-700 mb-2">
+                  {activity.name}
+                </h3>
+                <p className="text-sm text-earth-600 leading-relaxed">
+                  {activity.description}
+                </p>
               </motion.div>
             ))}
           </div>

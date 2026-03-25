@@ -46,12 +46,12 @@ export const activities: Activity[] = [
     id: "frisbee",
     name: "Flying High: Frisbee",
     description: "Toss, catch, and have fun with frisbee on the resort's open lawns.",
-    icon: "/images/experiences/activity-frisbee.png",
+    icon: "/images/experiences/activity-jhoola.png",
   },
   {
     id: "jhoola",
     name: "Swing High: Jhoolas",
     description: "Relax and swing on traditional jhoolas set amidst the resort gardens.",
-    icon: "/images/experiences/activity-jhoola.png",
+    icon: "/images/experiences/icon-jhoola2.png",
   },
 ];

@@ -86,7 +86,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6 }}
               className="lg:col-span-2"
             >
@@ -122,7 +122,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <div className="bg-white rounded-2xl p-6 border border-earth-100 shadow-sm sticky top-28">
@@ -211,7 +211,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6 }}
             >
               <h3 className="font-heading text-2xl font-medium text-earth-900 mb-6">
@@ -233,7 +233,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <h3 className="font-heading text-2xl font-medium text-earth-900 mb-6">
@@ -271,7 +271,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
                   key={layout.name}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "200px" }}
                   transition={{ duration: 0.5, delay: i * 0.08 }}
                   className="bg-white rounded-2xl p-6 border border-earth-100"
                 >
@@ -311,7 +311,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
                   key={item.id}
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "200px" }}
                   className="border border-earth-100 rounded-xl overflow-hidden"
                 >
                   <button
@@ -354,7 +354,7 @@ export function VenueDetailClient({ venue }: VenueDetailClientProps) {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >

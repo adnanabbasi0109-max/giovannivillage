@@ -119,7 +119,7 @@ export function VenuesClient() {
                 key={venue.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
                 <Link href={`/weddings-events/venues/${venue.slug}`}>
@@ -196,7 +196,7 @@ export function VenuesClient() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >

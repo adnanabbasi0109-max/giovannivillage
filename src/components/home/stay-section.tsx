@@ -25,7 +25,7 @@ export function StaySection() {
               key={room.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="group"
             >
@@ -80,7 +80,7 @@ export function StaySection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "200px" }}
           className="mt-12 text-center"
         >
           <Link href="/stay/rooms">

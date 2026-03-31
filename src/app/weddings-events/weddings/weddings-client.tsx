@@ -138,7 +138,7 @@ export function WeddingsClient() {
                 key={item.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="bg-ivory-50 rounded-2xl p-8 border border-earth-100 hover:border-gold-200 transition-colors"
               >
@@ -172,7 +172,7 @@ export function WeddingsClient() {
                 key={venue.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.6 }}
               >
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -235,7 +235,7 @@ export function WeddingsClient() {
                 key={service}
                 initial={{ opacity: 0, x: -10 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.4, delay: i * 0.04 }}
                 className="flex items-start gap-3 py-3 border-b border-earth-100"
               >
@@ -263,7 +263,7 @@ export function WeddingsClient() {
                 key={story.couple}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="bg-earth-700/50 rounded-2xl overflow-hidden border border-white/10"
               >
@@ -305,7 +305,7 @@ export function WeddingsClient() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >

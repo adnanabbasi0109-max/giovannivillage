@@ -26,7 +26,7 @@ export function ExperiencesSection() {
               key={exp.id}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
             >
               <Link href={`/experiences#${exp.slug}`} className="group block">
@@ -68,7 +68,7 @@ export function ExperiencesSection() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "200px" }}
           className="mt-12 text-center"
         >
           <Link href="/experiences">

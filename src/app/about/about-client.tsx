@@ -22,7 +22,7 @@ export function AboutClient() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6 }}
             >
               <ImagePlaceholder src="/images/gallery/resort-2.jpg" alt="Giovanni Village Resort" aspect="video" label="The Resort" className="rounded-2xl" />
@@ -30,7 +30,7 @@ export function AboutClient() {
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p className="font-accent text-sm tracking-[0.15em] uppercase text-gold-600 mb-3">Our Story</p>

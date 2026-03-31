@@ -37,7 +37,7 @@ export function DiningClient() {
                 id={outlet.slug}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.6 }}
               >
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center`}>
@@ -102,7 +102,7 @@ export function DiningClient() {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             className="mt-20 text-center bg-ivory-100 rounded-2xl p-10"
           >
             <h3 className="font-heading text-2xl font-medium text-earth-900 mb-3">

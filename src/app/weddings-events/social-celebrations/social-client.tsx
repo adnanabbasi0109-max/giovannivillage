@@ -122,7 +122,7 @@ export function SocialClient() {
                 key={type.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="bg-ivory-50 rounded-2xl p-8 border border-earth-100 hover:border-gold-200 transition-colors"
               >
@@ -171,7 +171,7 @@ export function SocialClient() {
                 key={venue.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="bg-white rounded-2xl overflow-hidden border border-earth-100 hover:shadow-lg transition-shadow"
               >
@@ -220,7 +220,7 @@ export function SocialClient() {
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6 }}
             >
               <ImagePlaceholder
@@ -234,7 +234,7 @@ export function SocialClient() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <p className="font-accent text-sm tracking-[0.15em] uppercase text-gold-600 mb-2">
@@ -268,7 +268,7 @@ export function SocialClient() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >

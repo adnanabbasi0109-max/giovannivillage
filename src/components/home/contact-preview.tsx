@@ -14,7 +14,7 @@ export function ContactPreview() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
           >
             <p className="font-accent text-sm tracking-[0.2em] uppercase text-gold-600 mb-4">
@@ -92,7 +92,7 @@ export function ContactPreview() {
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="bg-earth-200 rounded-2xl aspect-[4/3] flex items-center justify-center">

@@ -78,7 +78,7 @@ export function SEOLandingPage({
                 key={point.title}
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="bg-white rounded-xl p-6 border border-earth-100 shadow-[0_4px_20px_rgba(26,24,20,0.04)]"
               >

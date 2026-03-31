@@ -69,7 +69,7 @@ export function JournalClient() {
                 key={post.slug}
                 initial={{ opacity: 0, y: 15 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
               >
                 <Link href={`/journal/${post.slug}`} className="group block">

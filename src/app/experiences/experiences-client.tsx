@@ -35,7 +35,7 @@ export function ExperiencesClient() {
                 id={exp.slug}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.6 }}
               >
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center`}>
@@ -92,7 +92,7 @@ export function ExperiencesClient() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "200px" }}
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
@@ -113,7 +113,7 @@ export function ExperiencesClient() {
                 key={activity.id}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
                 className="text-center group"
               >

@@ -62,7 +62,7 @@ export function EventsSection() {
               key={category.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
             >
               <Link href={category.href} className="group block h-full">
@@ -104,7 +104,7 @@ export function EventsSection() {
         <motion.div
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "200px" }}
           className="mt-12 flex flex-wrap items-center justify-center gap-4"
         >
           <Link href="/weddings-events/venues">

@@ -22,7 +22,7 @@ export function QuickFactsSection() {
               key={fact.label}
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="flex flex-col items-center text-center p-4"
             >

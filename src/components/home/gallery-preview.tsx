@@ -32,7 +32,7 @@ export function GalleryPreview() {
               key={item.label}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className={`${item.span} overflow-hidden rounded-xl group cursor-pointer`}
             >
@@ -50,7 +50,7 @@ export function GalleryPreview() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "200px" }}
           className="mt-10 text-center"
         >
           <Link href="/gallery">

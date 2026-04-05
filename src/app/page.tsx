@@ -1,5 +1,3 @@
-"use client";
-
 import { HeroSection } from "@/components/home/hero";
 import { QuickFactsSection } from "@/components/home/quick-facts";
 import { StaySection } from "@/components/home/stay-section";

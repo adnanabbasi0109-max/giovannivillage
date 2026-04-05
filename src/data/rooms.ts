@@ -132,9 +132,9 @@ export const rooms: RoomCategory[] = [
       "The Junior Suite with Deck & Garden View combines the comfort of a suite with the charm of outdoor living. At 540 sq ft, this room features a spacious private deck where you can unwind while enjoying views of the resort's manicured gardens. Inside, you will find a king-size bed, a sitting area, and premium bath amenities — everything you need for a luxurious and relaxing stay.",
     tagline: "Suite Living with Garden Views",
     images: [
-      { src: "/images/rooms/king-pool-garden.jpg", alt: "Junior Suite with Deck & Garden View" },
+      { src: "/images/rooms/junior-suite-deck-garden.jpg", alt: "Junior Suite with Deck & Garden View" },
     ],
-    heroImage: { src: "/images/rooms/king-pool-garden.jpg", alt: "Junior Suite with Deck & Garden View at Giovanni Village Resort" },
+    heroImage: { src: "/images/rooms/junior-suite-deck-garden.jpg", alt: "Junior Suite with Deck & Garden View at Giovanni Village Resort" },
     maxOccupancy: 5,
     maxAdults: 3,
     maxChildren: 2,
